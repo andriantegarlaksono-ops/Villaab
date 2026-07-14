@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa AB - Katalog</title>
+  <meta name="description" content="Katalog Villa AB dengan tema pink, menampilkan kamar, fasilitas, dan harga per jam. Hubungi via WhatsApp untuk booking." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <h1>Villa AB</h1>
+  </header>
+
+  <main class="catalog" id="catalog">
+    <!-- Katalog kamar akan di‑render secara dinamis oleh script.js -->
+  </main>
+
+  <!-- Tombol admin (popup) -->
+  <button class="admin-btn" id="adminBtn">Admin</button>
+
+  <!-- Popup login admin -->
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="modal-content">
+      <span class="close" id="closeLogin">&times;</span>
+      <h2>Login Admin</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Masuk</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Popup edit katalog (hanya muncul setelah login) -->
+  <div class="modal" id="editModal" aria-hidden="true">
+    <div class="modal-content">
+      <span class="close" id="closeEdit">&times;</span>
+      <h2>Kelola Katalog</h2>
+      <div id="editContainer"></div>
+      <button id="saveChanges">Simpan Perubahan</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
