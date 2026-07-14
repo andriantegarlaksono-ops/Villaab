@@ -1,22 +1,22 @@
 [
   {
     "name": "Kamar Deluxe",
-    "photo": "assets/kamar1.jpg",
-    "facilities": "AC, TV, WiFi, Sarapan",
+    "photo": "https://picsum.photos/seed/deluxe/400/300",
+    "facilities": "AC, TV, WiFi, Sarapan, Kolam Renang",
     "hours": "1-6",
     "price": 200000
   },
   {
     "name": "Kamar Superior",
-    "photo": "assets/kamar2.jpg",
-    "facilities": "AC, TV, WiFi",
+    "photo": "https://picsum.photos/seed/superior/400/300",
+    "facilities": "AC, TV, WiFi, Dapur Mini",
     "hours": "1-6",
     "price": 150000
   },
   {
     "name": "Kamar Standar",
-    "photo": "assets/kamar3.jpg",
-    "facilities": "AC, WiFi",
+    "photo": "https://picsum.photos/seed/standar/400/300",
+    "facilities": "AC, WiFi, Balkon",
     "hours": "1-6",
     "price": 100000
   }
